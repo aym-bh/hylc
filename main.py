@@ -5,4 +5,4 @@ import os
 
 videoPath = "/home/aymbh/foss/hylc/cityscape-silhouette.1920x1080.mp4"
 
-os.system("""hyprctl dispatch exec ['float;fullscreen'] 'cvlc --input-repeat=999999 """ + videoPath + "'")
+os.system("""hyprctl dispatch exec ['float;fullscreen;nofocus'] 'cvlc --input-repeat=999999 """ + videoPath + "'")
